@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!--HEAD: This includes information which is not visible to the user.-->
+<head>
+    <title>Sign In / Sign Up</title>
+</head>
+
+<!--BODY: This includes visible information to the user-->
+<body>    
+    <header style="background-color: #f2f2f2; float: left; width: 100%; text-align: center;">
+        <div style="float: left; text-align: center; width: 100%;">
+            <img src="images/gis.png" alt="Logo" style="float: left;">
+
+            <!--Clickable Links-->
+            <ul style="display: inline-flex">
+                <li><a href="index.html" style="margin-right: 30px;">MAPS</a></li>
+                <li><a href="index.html" style="margin-right: 30px;">RESOURCES</a></li>
+                <li><a href="index.html" style="margin-right: 30px;">EVENTS</a></li>
+                <li><a href="index.html" style="margin-right: 30px;">PRODUCTS</a></li>
+            </ul>
+
+            <!--Authentication-related Functionalities-->
+            <div style="float: right;">
+                <img src="images/person.png" alt="Sign in / Sign up">
+                <div>
+                    <a href="signin-signup.html">Sign in / Sign up</a>
+                </div>  
+            </div>
+        </div>
+    </header>
+
+    <p>Create an account to get the latest news and upcoming events in different cities!</p>
+    
+    <!--Sign Up Functionality-->
+    <div style="width: 100%; overflow: hidden;">
+        <div style="width: 600px; float: left;">
+            <h2>Sign Up!</h2>
+            <form action="index.html" style="width: 20%;">
+                <input type="text" name="First Name" id="fName" placeholder="First Name">
+                <input type="text" name="Last Name" id="lName" placeholder="Last Name">
+                <input type="text" name="Email" id="email" placeholder="Email">
+                <input type="password" name="Password" id="password" placeholder="Password">
+                <p>Enter your favorite cities:</p>
+                <input type="text" name="City 1" id="city1" placeholder="City 1">
+                <input type="text" name="City 2" id="city2" placeholder="City 2">
+                <input type="text" name="City 3" id="city3" placeholder="City 3">
+                <input type="submit" value="Sign Up!">
+            </form>
+        </div>
+
+            <!--Sign In Functionality-->
+        <div style="margin-left: 620px;">
+            <h2>Sign In!</h2>
+            <form action="index.html" style="width: 20%;">
+                <input type="text" name="Email" id="email2" placeholder="Email">
+                <input type="password" name="Password" id="password2" placeholder="Password">
+                <input type="submit" value="Sign In!">
+            </form>
+        </div>
+   </div>
+
+   <img src="images/signin-signup-validation.png" alt="signin-signup.html validation">
+
+</body>
