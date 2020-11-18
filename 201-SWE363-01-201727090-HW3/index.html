@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFUPM | ICS Department</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="row" id="main-header">
+            <div class="col-0 col-md-1"></div>
+            <div class="col-12 col-md-10">
+                <img src="images/ics-logo.svg" alt="" id="logo-img">
+            </div>
+            <div class="col-0 col-md-1"></div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="bootstrap-nav-bar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/abdulelahhajjar.html">People</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Academics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Undergraduate</a>
+                      <a class="dropdown-item" href="#">Graduate</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Admission</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Prospective Students</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Industry</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News & Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">External Links</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <div class="row" id="promotional-images-div">
+        <div class="col-1 col-md-2"></div>
+        <div class="col-10 col-md-8" id="promotional-images">
+            <div id="over-promotional-img">
+                <p class="promotional-text">Welcome to ICS Department!</p>
+                <button type="button" class="btn btn-success" id="learn-more-btn">Learn More!</button>
+            </div>
+        </div>
+        <div class="col-1 col-md-2"></div>
+    </div>
+
+    <div class="row ml-4 ml-md-0 mr-4 mr-md-0" id="information-text-div">
+        <div class="col-1 col-md-2"></div>
+        <div class="col-12 col-md-2 information-div-container">
+            <div class="information-div" id="welcome-div">
+                <h2 class="information-heading">Welcome</h2>
+                <p class="information-text">Welcome to Information and Computer Sciences department.
+                The Information and Comp​uter Science 
+                D​epartment at KFUPM was establis​hed in September 1979.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 information-div-container">
+            <div class="information-div" id="vision-mission-div">
+                <h2 class="information-heading">Vision & Misson</h2>
+                <h3>Vision</h3>
+                <p class="information-text">
+                    The vision of the ICS department is to be a regional leader that is recognized worldwide in education,
+                    research and professional development in the areas of Computer Science and Software Engineering.
+                </p>
+                <h3>Mission</h3>
+                <p class="information-text">
+                    The mission of the ICS department is to:
+                    <ul>
+                        <li>Provide high quality undergraduate and graduate educational programs in Computer Science and Software Engineering.</li>
+                        <li>Contribute significantly to the research and the discovery of new knowledge and methods in computing.</li>
+                        <li>Offer expertise, resources, and services to the community</li>
+                        <li>Keep its faculty members current by providing opportunities for professional development.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-2 information-div-container">
+            <div class="information-div" id="news-events-div">
+                <h2 class="information-heading">News & Events</h2>
+                <div>
+                    <img class="news-image" src="images/drmirzal-explaining-1.jpg" alt="">
+                    <b>Dr. Mirzal Explaining</b>
+                    <p><a href="#">Read more</a></p>
+
+                    <hr>
+
+                    <img class="news-image" src="images/drmirzal-explaining-2.jpg" alt="">
+                    <b>Dr. Mirzal Explaining</b>
+                    <p><a href="#">Read more</a></p>
+
+                    <hr>
+
+                    <img class="news-image" src="images/term-project-teams.jpg" alt="">
+                    <b>Term Project Winners</b>
+                    <p><a href="#">Read more</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-0 col-md-2"></div>
+    </div>
+
+    <div class="row" id="footer">
+        <div class="col-12 col-md-12">
+            <div id="footer-parent">
+                <div id="footer-content">
+                    <p>Copyrights © King Fahd University of Petroleum & Minerals</p>
+                    <p><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a> • <a href="#">Contact Us</a></p>
+                    <p><a href="https://twitter.com/kfupm">Twitter</a> • <a href="https://www.facebook.com/KFUPM/">Facebook</a> • <a href="tel:+966138600000">Telephone Number</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+#self-image {
+    box-shadow: 0px 14px 30px 0px rgba(95, 152, 255, 0.3);
+    border-radius: 50%;
+    background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(217,230,255,1) 100%);
+    border: 1pt solid rgb(226, 226, 226);
+}
+
+#main-table {
+    width: 100%;
+}
+
+#self-image-container {
+    vertical-align: middle;
+    display: table-cell;
+    margin-top: 60px;
+    padding-left: 40px;
+    margin-top: 120px;
+    padding-left: 80px;
+}
+
+a {
+    color: rgb(221, 221, 221);
+}
+
+a:hover {
+    color: white;
+}
+
+.link-icon {
+    margin-right: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+#main-row {
+    padding: 0px 0px;
+    height: 100vh;
+}
+
+#sidebar {
+    background-color: #4f5963;
+}
+
+#side-bar-title {
+    color: rgb(199, 199, 199);
+    padding: 10px;
+}
+
+#side-bar-links {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+

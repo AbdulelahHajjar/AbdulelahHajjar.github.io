@@ -1,0 +1,119 @@
+#logo-img {
+    height: 80px;
+    margin: 0 10px;
+}
+
+#main-header {
+    height: 100px;
+    background-color: #ECECEC;
+    align-content: center;
+}
+
+#bootstrap-nav-bar {
+    margin-bottom: 20px;
+}
+
+#header-nav-link {
+    margin: 3px;
+    font-size: 14px;
+    color: white;
+}
+
+.promotional-image {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.promotional-text {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 2px 6px black;
+    font-size: 36px;
+}
+
+#over-promotional-img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 30%;
+}
+
+#promotional-images-div {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.information-div {
+    border-radius: 16px;
+    box-shadow: 0px 14px 30px 0px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#welcome-div {
+    margin-right: 16px;
+    height: 100%;
+}
+
+#vision-mission-div {
+    margin-right: 16px;
+    height: 100%;
+}
+
+#news-events-div {
+    height: 100%;
+}
+
+#promotional-images {
+    padding: 0;
+    height: 100%;
+}
+
+.information-heading {
+    background: -webkit-linear-gradient(#06a454, #067d40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.news-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+#information-text-div {
+    margin-bottom: 40px;
+}
+
+#footer-parent {
+    background-color: #252525;
+    height: 160px;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+#footer-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.information-div-container {
+    margin-bottom: 40px;
+    padding: 0;
+}
